@@ -1,0 +1,2 @@
+<launch>
+  <include file="$(find hector_gazebo_worlds)/launch/start.launch"><arg name="world" value="$(find hector_gazebo_worlds)/worlds/willow-four-erratics-multisensor.world"/></include></launch>
